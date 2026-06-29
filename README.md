@@ -119,6 +119,7 @@ user-management-dashboard/
 - **JSONPlaceholder read-only limitation:** POST/PUT/DELETE return simulated responses without actually modifying data. Solved by maintaining local state and syncing to `localStorage` for persistence across sessions.
 - **ID collision on POST:** The API always returns `id: 11` for new users. Solved by generating a unique local ID using `Math.max(...ids) + 1`.
 - **Vite cache issues on Windows:** Stale module cache caused `onReset is not a function` errors. Solved by clearing `node_modules/.vite` with `Remove-Item -Recurse -Force node_modules/.vite`.
+- **Newly added users** appear at the end of the list to reflect append order.
 
 ---
 
