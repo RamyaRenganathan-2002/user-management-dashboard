@@ -111,7 +111,6 @@ user-management-dashboard/
 - **Department assignment:** The API has no department field. Departments are assigned deterministically from a predefined map by user ID. New users select from a dropdown of: IT, Engineering, Sales, Marketing, HR, Finance.
 - **Persistence:** JSONPlaceholder is a read-only mock API — POST, PUT, and DELETE requests are simulated. All changes are persisted in `localStorage` so the UI state survives page refresh.
 - **ID generation:** Since JSONPlaceholder always returns `id: 11` for POST requests, newly added users receive a locally generated ID (max existing ID + 1).
-- **Newly added users** appear at the end of the list to reflect append order.
 
 ---
 
