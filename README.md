@@ -3,10 +3,7 @@
 A responsive React + Vite web application for managing users via the JSONPlaceholder mock REST API. Supports full CRUD operations with search, filter, sort, and pagination.
 
 ## Live Demo
-[Add your Vercel URL here]
-
-## GitHub Repository
-[Add your GitHub repo URL here]
+(https://user-management-dashboard-5u39.vercel.app/)
 
 ---
 
