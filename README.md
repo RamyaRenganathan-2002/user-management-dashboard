@@ -73,64 +73,36 @@ npx vitest        # Run unit tests
 ```
 
 ---
-
-## Folder Structure
+```
 user-management-dashboard/
-
 ├── public/
-
 ├── src/
-
 │   ├── api/
-
 │   │   └── userService.js        # Axios API calls (GET, POST, PUT, DELETE)
-
 │   ├── components/
-
 │   │   ├── Header.jsx            # Top bar with Add User button
-
 │   │   ├── SearchBar.jsx         # Real-time search input
-
 │   │   ├── FilterPopup.jsx       # Multi-field filter modal
-
 │   │   ├── UserTable.jsx         # Table with sortable columns
-
 │   │   ├── UserRow.jsx           # Individual table row
-
 │   │   ├── UserForm.jsx          # Add / Edit user modal form
-
 │   │   ├── Pagination.jsx        # Page controls and size selector
-
 │   │   └── ConfirmDelete.jsx     # Delete confirmation modal
-
 │   ├── hooks/
-
 │   │   └── useUsers.js           # Custom hook for fetch + localStorage
-
 │   ├── utils/
-
 │   │   ├── constants.js          # API URL, departments, page sizes
-
 │   │   ├── validators.js         # Form validation logic
-
 │   │   ├── helpers.js            # Search, filter, sort, paginate, ID gen
-
 │   │   └── helpers.test.js       # Vitest unit tests
-
 │   ├── styles/
-
 │   │   └── index.css             # Global styles and dark theme
-
 │   ├── App.jsx                   # Root component with all state
-
 │   └── main.jsx                  # Entry point
-
 ├── index.html
-
 ├── vite.config.js
-
 └── README.md
-
+```
 ---
 
 ## Engineering Assumptions
